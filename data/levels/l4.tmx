@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="46" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="135">
+ <tileset firstgid="1" source="forest.tsx"/>
+ <layer id="1" name="tiles" width="30" height="46">
+  <data encoding="csv">
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,22,22,22,22,22,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,21,22,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,22,22,22,22,23,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,23,0,0,21,23,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,23,0,0,21,22,23,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,21,23,0,0,0,0,0,0,21,23,0,0,0,0,0,0,0,0,0,4,
+4,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,0,0,21,23,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,21,22,22,22,22,22,22,23,21,23,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,4,
+4,23,0,0,0,0,21,22,22,22,22,22,22,23,0,0,0,0,0,0,21,22,22,22,23,21,22,22,22,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,21,22,22,22,22,22,22,22,22,23,21,22,22,22,22,22,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,23,0,0,0,0,0,0,0,0,0,4,
+4,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,23,0,0,0,0,0,0,0,0,0,4,
+4,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,21,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,0,0,21,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,0,0,21,22,22,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,0,0,21,22,22,22,22,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,23,0,0,0,0,0,0,21,22,22,22,22,22,22,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,21,22,22,22,22,22,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,21,22,22,22,22,22,22,22,22,22,22,4,
+4,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,0,0,21,22,22,22,22,22,22,22,22,22,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,21,22,23,0,0,0,0,0,0,0,4,0,0,0,4,
+4,0,0,0,0,21,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,22,22,22,4,
+4,22,22,22,22,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="6" name="ladder" gid="12" x="80" y="80" width="16" height="16"/>
+  <object id="7" name="ladder" gid="12" x="80" y="96" width="16" height="16"/>
+  <object id="8" name="ladder" gid="12" x="80" y="112" width="16" height="16"/>
+  <object id="9" name="ladder" gid="12" x="80" y="128" width="16" height="16"/>
+  <object id="10" name="topladder" gid="12" x="80" y="64" width="16" height="16"/>
+  <object id="11" name="ladder" gid="12" x="272" y="128" width="16" height="16"/>
+  <object id="12" name="ladder" gid="12" x="272" y="144" width="16" height="16"/>
+  <object id="13" name="ladder" gid="12" x="272" y="112" width="16" height="16"/>
+  <object id="14" name="ladder" gid="12" x="272" y="96" width="16" height="16"/>
+  <object id="15" name="topladder" gid="12" x="272" y="80" width="16" height="16"/>
+  <object id="18" name="ladder" gid="5" x="432" y="32" width="16" height="16"/>
+  <object id="19" name="ladder" gid="5" x="432" y="48" width="16" height="16"/>
+  <object id="20" name="ladder" gid="5" x="432" y="64" width="16" height="16"/>
+  <object id="21" name="ladder" gid="5" x="432" y="64" width="16" height="16"/>
+  <object id="22" name="ladder" gid="5" x="432" y="80" width="16" height="16"/>
+  <object id="23" name="ladder" gid="5" x="432" y="96" width="16" height="16"/>
+  <object id="24" name="ladder" gid="5" x="432" y="96" width="16" height="16"/>
+  <object id="25" name="ladder" gid="5" x="432" y="112" width="16" height="16"/>
+  <object id="26" name="ladder" gid="5" x="432" y="128" width="16" height="16"/>
+  <object id="27" name="ladder" gid="5" x="432" y="144" width="16" height="16"/>
+  <object id="28" name="ladder" gid="5" x="432" y="160" width="16" height="16"/>
+  <object id="29" name="ladder" gid="5" x="432" y="176" width="16" height="16"/>
+  <object id="30" name="ladder" gid="5" x="432" y="192" width="16" height="16"/>
+  <object id="31" name="start" x="32" y="32" width="16" height="16"/>
+  <object id="32" name="deebot" x="208" y="128" width="16" height="16"/>
+  <object id="33" name="deebot" x="128" y="112" width="16" height="16"/>
+  <object id="34" name="spike" gid="20" x="384" y="96" width="16" height="16"/>
+  <object id="35" name="meebo" x="192" y="240" width="16" height="16"/>
+  <object id="36" name="meebo" x="160" y="176" width="16" height="16"/>
+  <object id="37" name="meebo" x="112" y="208" width="16" height="16"/>
+  <object id="38" name="sawber" x="240" y="256" width="16" height="16"/>
+  <object id="39" name="ladder" gid="5" x="80" y="160" width="16" height="16"/>
+  <object id="40" name="ladder" gid="5" x="80" y="176" width="16" height="16"/>
+  <object id="41" name="ladder" gid="5" x="80" y="192" width="16" height="16"/>
+  <object id="42" name="ladder" gid="5" x="80" y="192" width="16" height="16"/>
+  <object id="43" name="ladder" gid="5" x="80" y="208" width="16" height="16"/>
+  <object id="44" name="ladder" gid="5" x="80" y="224" width="16" height="16"/>
+  <object id="45" name="ladder" gid="5" x="80" y="240" width="16" height="16"/>
+  <object id="46" name="ladder" gid="5" x="80" y="256" width="16" height="16"/>
+  <object id="47" name="ladder" gid="5" x="80" y="272" width="16" height="16"/>
+  <object id="48" name="ladder" gid="5" x="80" y="272" width="16" height="16"/>
+  <object id="49" name="ladder" gid="5" x="80" y="288" width="16" height="16"/>
+  <object id="50" name="ladder" gid="5" x="80" y="304" width="16" height="16"/>
+  <object id="51" name="ladder" gid="5" x="80" y="304" width="16" height="16"/>
+  <object id="52" name="ladder" gid="5" x="80" y="320" width="16" height="16"/>
+  <object id="53" name="ladder" gid="5" x="80" y="336" width="16" height="16"/>
+  <object id="54" name="ladder" gid="5" x="112" y="288" width="16" height="16"/>
+  <object id="55" name="ladder" gid="5" x="112" y="304" width="16" height="16"/>
+  <object id="56" name="ladder" gid="5" x="112" y="320" width="16" height="16"/>
+  <object id="57" name="ladder" gid="5" x="112" y="336" width="16" height="16"/>
+  <object id="58" name="ladder" gid="5" x="144" y="288" width="16" height="16"/>
+  <object id="59" name="ladder" gid="5" x="144" y="304" width="16" height="16"/>
+  <object id="60" name="ladder" gid="5" x="176" y="304" width="16" height="16"/>
+  <object id="61" name="ladder" gid="5" x="128" y="288" width="16" height="16"/>
+  <object id="62" name="ladder" gid="5" x="176" y="288" width="16" height="16"/>
+  <object id="63" name="ladder" gid="5" x="176" y="320" width="16" height="16"/>
+  <object id="64" name="ladder" gid="5" x="176" y="336" width="16" height="16"/>
+  <object id="65" name="ladder" gid="5" x="176" y="352" width="16" height="16"/>
+  <object id="66" name="ladder" gid="5" x="208" y="304" width="16" height="16"/>
+  <object id="67" name="ladder" gid="5" x="208" y="320" width="16" height="16"/>
+  <object id="68" name="ladder" gid="5" x="208" y="336" width="16" height="16"/>
+  <object id="69" name="ladder" gid="5" x="240" y="304" width="16" height="16"/>
+  <object id="70" name="ladder" gid="5" x="240" y="320" width="16" height="16"/>
+  <object id="71" name="ladder" gid="5" x="240" y="336" width="16" height="16"/>
+  <object id="72" name="ladder" gid="5" x="240" y="336" width="16" height="16"/>
+  <object id="78" name="spike" gid="20" x="32" y="400" width="16" height="16"/>
+  <object id="79" name="spike" gid="20" x="48" y="400" width="16" height="16"/>
+  <object id="80" name="spike" gid="20" x="64" y="400" width="16" height="16"/>
+  <object id="81" name="spike" gid="20" x="80" y="400" width="16" height="16"/>
+  <object id="82" name="spike" gid="20" x="112" y="400" width="16" height="16"/>
+  <object id="83" name="spike" gid="20" x="96" y="400" width="16" height="16"/>
+  <object id="84" name="spike" gid="20" x="128" y="400" width="16" height="16"/>
+  <object id="85" name="spike" gid="20" x="144" y="400" width="16" height="16"/>
+  <object id="86" name="spike" gid="20" x="176" y="400" width="16" height="16"/>
+  <object id="87" name="spike" gid="20" x="160" y="400" width="16" height="16"/>
+  <object id="88" name="spike" gid="20" x="192" y="400" width="16" height="16"/>
+  <object id="89" name="spike" gid="20" x="208" y="400" width="16" height="16"/>
+  <object id="90" name="spike" gid="20" x="224" y="400" width="16" height="16"/>
+  <object id="91" name="spike" gid="20" x="240" y="400" width="16" height="16"/>
+  <object id="92" name="spike" gid="20" x="256" y="400" width="16" height="16"/>
+  <object id="93" name="spike" gid="20" x="272" y="400" width="16" height="16"/>
+  <object id="94" name="sawber" x="320" y="576" width="16" height="16"/>
+  <object id="95" name="sawber" x="160" y="576" width="16" height="16"/>
+  <object id="96" name="meebo" x="48" y="592" width="16" height="16"/>
+  <object id="97" name="meebo" x="432" y="608" width="16" height="16"/>
+  <object id="98" name="door" gid="16" x="240" y="720" width="16" height="16"/>
+  <object id="99" name="door" gid="8" x="240" y="704" width="16" height="16"/>
+  <object id="100" name="acorn" gid="14" x="16" y="128" width="16" height="16"/>
+  <object id="101" name="acorn" gid="14" x="448" y="192" width="16" height="16"/>
+  <object id="102" name="acorn" gid="14" x="32" y="320" width="16" height="16"/>
+  <object id="103" name="acorn" gid="14" x="448" y="384" width="16" height="16"/>
+  <object id="104" name="acorn" gid="14" x="160" y="480" width="16" height="16"/>
+  <object id="105" name="acorn" gid="14" x="16" y="656" width="16" height="16"/>
+  <object id="106" name="decor" gid="30" x="16" y="720" width="16" height="16"/>
+  <object id="107" name="decor" gid="30" x="32" y="720" width="16" height="16"/>
+  <object id="108" name="decor" gid="30" x="48" y="720" width="16" height="16"/>
+  <object id="109" name="decor" gid="30" x="64" y="720" width="16" height="16"/>
+  <object id="110" name="decor" gid="30" x="96" y="720" width="16" height="16"/>
+  <object id="111" name="decor" gid="30" x="80" y="720" width="16" height="16"/>
+  <object id="112" name="decor" gid="30" x="128" y="720" width="16" height="16"/>
+  <object id="113" name="decor" gid="30" x="128" y="720" width="16" height="16"/>
+  <object id="114" name="decor" gid="30" x="112" y="720" width="16" height="16"/>
+  <object id="115" name="decor" gid="30" x="144" y="720" width="16" height="16"/>
+  <object id="116" name="decor" gid="30" x="160" y="720" width="16" height="16"/>
+  <object id="117" name="decor" gid="30" x="176" y="720" width="16" height="16"/>
+  <object id="118" name="decor" gid="30" x="192" y="720" width="16" height="16"/>
+  <object id="119" name="decor" gid="30" x="208" y="720" width="16" height="16"/>
+  <object id="120" name="decor" gid="30" x="208" y="720" width="16" height="16"/>
+  <object id="121" name="decor" gid="30" x="224" y="720" width="16" height="16"/>
+  <object id="122" name="decor" gid="30" x="256" y="720" width="16" height="16"/>
+  <object id="123" name="decor" gid="30" x="272" y="720" width="16" height="16"/>
+  <object id="124" name="decor" gid="30" x="304" y="720" width="16" height="16"/>
+  <object id="125" name="decor" gid="30" x="320" y="720" width="16" height="16"/>
+  <object id="126" name="decor" gid="30" x="336" y="720" width="16" height="16"/>
+  <object id="127" name="decor" gid="30" x="288" y="720" width="16" height="16"/>
+  <object id="128" name="decor" gid="30" x="352" y="720" width="16" height="16"/>
+  <object id="129" name="decor" gid="30" x="448" y="720" width="16" height="16"/>
+  <object id="130" name="decor" gid="30" x="368" y="720" width="16" height="16"/>
+  <object id="131" name="decor" gid="30" x="432" y="720" width="16" height="16"/>
+  <object id="132" name="decor" gid="30" x="384" y="720" width="16" height="16"/>
+  <object id="133" name="decor" gid="30" x="416" y="720" width="16" height="16"/>
+  <object id="134" name="decor" gid="30" x="400" y="720" width="16" height="16"/>
+ </objectgroup>
+</map>
