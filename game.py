@@ -25,7 +25,7 @@ class Game():
         pgc.init()
         self.screen = pygame.surface.Surface((SCREENWIDTH,SCREENHEIGHT))
         self.rscreen = pygame.display.set_mode((SCALEDW,SCALEDH),pygame.RESIZABLE|pygame.SCALED)
-        pygame.display.set_caption("Nioboy","Noiboy")
+        pygame.display.set_caption("forest Mage","Forest Mage")
 
 
 

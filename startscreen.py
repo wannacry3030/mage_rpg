@@ -6,16 +6,16 @@ class Startscreen(scene.Scene):
 
         self.top = utilities.loadImage(self.game.image_dir,"startscreentop.png",1)
 
-        self.title = self.game.large_text.render("noiboy",False,self.game.colors[3])
+        self.title = self.game.large_text.render("Mago",False,self.game.colors[3])
         self.titlerect = self.title.get_rect(center = (self.screen.get_width()/ 2,self.screen.get_height() / 2))
 
-        self.subtitle = self.game.small_text.render("spirit of the woods",False,self.game.colors[1])
+        self.subtitle = self.game.small_text.render("O oculto",False,self.game.colors[1])
         self.subtitlerect = self.subtitle.get_rect(center = self.titlerect.center)
         self.subtitlerect.top = self.titlerect.bottom
 
-        self.start1 = self.game.small_text.render("press start",False,self.game.colors[2])
-        self.start2 = self.game.small_text.render("press start", False, self.game.colors[1])
-        self.start3 = self.game.small_text.render("press start", False, self.game.colors[3])
+        self.start1 = self.game.small_text.render("Aperte Enter",False,self.game.colors[2])
+        self.start2 = self.game.small_text.render("Aperte Enter", False, self.game.colors[1])
+        self.start3 = self.game.small_text.render("Aperte Enter", False, self.game.colors[3])
         self.startcounter = 0
 
         self.startrect = self.start1.get_rect(center = self.titlerect.center)
