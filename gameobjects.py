@@ -399,6 +399,7 @@ class Disappearingblock(pygame.sprite.Sprite):
             self.image = self.img1
         else:
             self.image = self.img2
+            
 class Door(pygame.sprite.Sprite):
     def __init__(self, image=None, pos=None, game=None):
         pygame.sprite.Sprite.__init__(self)
@@ -412,6 +413,7 @@ class Door(pygame.sprite.Sprite):
                 self.game.curlev += 1
                 self.game.acorncount += self.game.acornlevcount
                 self.game.reset()
+                
 class Acorn(pygame.sprite.Sprite):
     def __init__(self, image=None, pos=None, game=None):
         pygame.sprite.Sprite.__init__(self)
@@ -424,6 +426,7 @@ class Acorn(pygame.sprite.Sprite):
             self.game.acornlevcount += 1
             self.kill()
             self.game.collectsound.play()
+            
 class decor(pygame.sprite.Sprite):
     def __init__(self, image=None, pos=None, game=None):
         pygame.sprite.Sprite.__init__(self)
