@@ -207,9 +207,9 @@ class Gameplay(scene.Scene):
             self.camera.draw_sprite(self.screen,l)
         self.camera.draw_sprite(self.screen,self.player)
         self.screen.blit(self.hud,(0,0))
-        acorntext = self.game.small_text.render("acorns: " + str(self.acorncount + self.acornlevcount),False,self.game.colors[2])
+        acorntext = self.game.small_text.render("Diamantes: " + str(self.acorncount + self.acornlevcount),False,self.game.colors[2])
         self.screen.blit(acorntext, (20,15))
-        livestext = self.game.small_text.render("lives: " + str(self.lives), False, self.game.colors[2])
+        livestext = self.game.small_text.render("Vidas: " + str(self.lives), False, self.game.colors[2])
         self.screen.blit(livestext, (20, 25))
 
 
