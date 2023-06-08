@@ -4,23 +4,23 @@ class Win(scene.Scene):
     def __init__(self,game):
         scene.Scene.__init__(self,game)
         self.game = game
-        self.won_text = self.game.large_text.render("  The End",False,self.game.colors[3])
-        self.acorn_text = self.game.small_text.render("number of acorns" ,False,self.game.colors[3])
-        self.acorn_text2 = self.game.small_text.render("     saved : " + str(self.game.game_play.acorncount),
+        self.won_text = self.game.large_text.render("  Fim",False,self.game.colors[3])
+        self.acorn_text = self.game.small_text.render("numero de diamantes" ,False,self.game.colors[3])
+        self.acorn_text2 = self.game.small_text.render("     salvos : " + str(self.game.game_play.acorncount),
                                                       False, self.game.colors[3])
-        self.good_ending = self.game.small_text.render("you've collected",False,self.game.colors[3])
-        self.good_ending2 = self.game.small_text.render("enough to replant ", False,
+        self.good_ending = self.game.small_text.render("voce coletou",False,self.game.colors[3])
+        self.good_ending2 = self.game.small_text.render("o suficiente para ", False,
                                                        self.game.colors[3])
-        self.good_ending3 = self.game.small_text.render("  the forest", False,
+        self.good_ending3 = self.game.small_text.render("  salvar a floresta", False,
                                                        self.game.colors[3])
-        self.bad_ending = self.game.small_text.render("you've failed ", False,
+        self.bad_ending = self.game.small_text.render("voce falhou ", False,
                                                        self.game.colors[3])
-        self.bad_ending2 = self.game.small_text.render("  to save", False,
+        self.bad_ending2 = self.game.small_text.render("  em salvar", False,
                                                       self.game.colors[3])
-        self.bad_ending3 = self.game.small_text.render("  enough acorns", False,
+        self.bad_ending3 = self.game.small_text.render("  a floresta", False,
                                                       self.game.colors[3])
     def update(self):
-        self.acorn_text2 = self.game.small_text.render("     saved : " + str(self.game.game_play.acorncount),
+        self.acorn_text2 = self.game.small_text.render("     coletou : " + str(self.game.game_play.acorncount),
                                                        False, self.game.colors[3])
         if self.game.actions["start"] and self.game.actions_cooldowns["start"] <= 0:
             self.game.actions_cooldowns["start"]= 20
